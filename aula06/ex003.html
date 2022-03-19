@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa de JS</title>
+    <style>
+        body {
+            background-color: rgb(37, 37, 160);
+            color: white;                                                 /* Comentário em CSS */
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>                                                 
+    <p>Já me livrei da maldição em JS</p>                                   <!-- Comentário em HTML -->
+    <script>
+        var n1 = Number.parseInt(window.prompt ('Digite um valor: '))
+        var n2 = Number.parseInt(window.prompt ('Digite outro valor: '))
+        // Nas versões mais novas do ECMAScript pode-se usar apenas o Number (n)
+        s = n1 + n2
+        window.alert (`A soma de ${n1} com ${n2} vale ${s}`)
+        // 'texto s'    não faz interpolação
+        // 'texto'+ s   faz interpolação
+        // 'texto ${s}' usa template string
+    </script>
+    
+</body>
+</html>

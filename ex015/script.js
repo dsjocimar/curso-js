@@ -10,6 +10,7 @@ function verificar(){
     var sexo = document.getElementsByName('sexo')
     for (var i = 0; i < sexo.length; i++){
         if (sexo[i].value == 'masculino'){
+            if (idadeTotal )
             msg.innerHTML = `Foi identificado um HOMEM de ${idadeTotal} anos`
         } else {
             msg.innerHTML = `Foi identificado uma MULHER de ${idadeTotal} anos`

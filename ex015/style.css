@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(70, 142,236);
+    background-color: rgb(42, 197, 146);
     font: normal 15pt normal;
 }
 
 header{
     color: white;   
     text-align: center;
+
 }
 
 section{
@@ -15,12 +16,6 @@ section{
     margin: auto;
     width: 500px;
     box-shadow: 3px 3px 10px rgb(0, 0,363);
-    text-align: center;
-}
-
-div {
-    padding: 1px;
-    text-align: center;
 }
 
 footer{

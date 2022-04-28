@@ -6,9 +6,7 @@ function verificar(){
     if (anoNasc.value.length == 0 || anoNasc.value > anoAtual){
         window.alert ('[ERRO] TENTE NOVAMENTE!')
     } else{
-        var idadeFormatado = parseInt(idade.value)
         var idadeTotal = anoAtual - Number(idade.value)  
-        
         //verificador sexo
         var msg = window.document.getElementById('msg')
         var img = document.createElement('img')
